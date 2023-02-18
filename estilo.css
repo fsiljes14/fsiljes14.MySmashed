@@ -1,0 +1,117 @@
+/* Centrar el contenido del sitio */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Añadir un poco de sombra a la barra de navegación */
+.navbar {
+  box-shadow: 0px 2px 5px 0px rgba(255, 231, 11, 0.904);
+}
+
+/* Ajustar el tamaño de los títulos */
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 24px;
+}
+h3{
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+iframe {
+display: block;
+margin: 0 auto;
+width: 100%;
+}
+
+body {
+background-color: #333;
+background-image: linear-gradient(90deg, #FF4E50, #F9D423, #FFA500);
+background-size: 600% 600%;
+animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+
+table {
+font-family: Arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+margin: 20px 0;
+background-color: #fff;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+text-align: left;
+padding: 12px;
+}
+
+th {
+background-color: #ffd901;
+color: #000;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+tr:hover {
+background-color: #ddd;
+}
+
+td:first-child {
+font-weight: bold;
+}
+
+
+
+
+
+/* Darle un poco de estilo al formulario de contacto */
+form {
+  width: 90%;
+  padding: 20px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+/* Darle un poco de estilo al pie de página */
+.footer {
+  display : flex;
+  margin-top: 50px;
+  width: 100%;
+  background-color: #fde405;
+  padding: 20px;
+  border-top: 1px solid #82ff06;
+  text-align: left;
+}
